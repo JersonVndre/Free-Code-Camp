@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adicionar diferentes preenchimentos a cada lado de um elemento</title>
+  <title>Adicionar diferentes margens a cada lado de um elemento</title>
 </head>
 <body>
   <!--
-    Às vezes, você pode querer personalizar um elemento para que ele tenha a propriedade padding diferente em cada um de seus lados.
+    Às vezes, você pode querer personalizar um elemento para que ele tenha a propriedade margin diferente em cada um de seus lados.
 
-O CSS permite que você controle a propriedade padding nos quatro lados de um elemento com as seguintes propriedades: padding-top, padding-right, padding-left e padding-bottom.
+O CSS permite que você controle a propriedade margin de todos os quatro lados de um elemento com as seguintes propriedades: margin-top, margin-right, margin-left e margin-bottom.
 
-Dê à caixa azul um preenchimento (padding) de 40px em seus lados superior e esquerdo, mas apenas 20px em seus lados inferior e direito.
+No elemento de classe "blue-box", adicione a propriedade margin com um valor de 40px em cima e no lado esquerdo. E apenas 20px em baixo e no lado direito.
 
 
   -->
+
   <style>
     .injected-text {
       margin-bottom: -25px;
@@ -37,19 +38,19 @@ Dê à caixa azul um preenchimento (padding) de 40px em seus lados superior e es
     .red-box {
       background-color: crimson;
       color: #fff;
-      padding-top: 40px;
-      padding-right: 20px;
-      padding-bottom: 20px;
-      padding-left: 40px;
+      margin-top: 40px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
     }
   
     .blue-box {
       background-color: blue;
       color: #fff;
-      padding-top: 40px;
-      padding-right: 20px;
-      padding-bottom: 20px;
-      padding-left: 40px;
+      margin-top: 40px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      margin-left: 40px;
     }
   </style>
   <h5 class="injected-text">margin</h5>
